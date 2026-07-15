@@ -17,5 +17,17 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#17132b", colorScheme: "dark" };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body><Header />{children}<Footer /></body></html>;
+  return (
+    <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="google70d2f5ada7903a5f.html" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBNK6579W2"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-FBNK6579W2');`,
+        }} />
+      </head>
+      <body><Header />{children}<Footer /></body>
+    </html>
+  );
 }
