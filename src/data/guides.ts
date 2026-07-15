@@ -4,6 +4,7 @@ export interface Section {
   heading: string;
   content: string;
   sourceLevel: "L1" | "L2" | "L3";
+  sourceNote?: string;
   sourceUrl?: string;
   bullets?: string[];
 }
