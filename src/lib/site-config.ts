@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Witchbrook",
   description:
     "An independent, source-led Witchbrook guide for release date, platforms, co-op, classes, romance, Mossport, and gameplay systems.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://witchbrookguide.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://witchbrookguide.wiki",
   ogImage: "/images/hero.png",
   updated: "July 15, 2026",
   steam: "https://store.steampowered.com/app/1846700/Witchbrook/",
