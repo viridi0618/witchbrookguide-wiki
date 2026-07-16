@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://witchbrookguide.wiki/sitemap.xml
+
+# IndexNow
+Host: https://witchbrookguide.wiki
