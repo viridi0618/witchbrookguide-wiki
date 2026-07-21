@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: { default: "Witchbrook Guide: Release, Platforms, Co-op & Gameplay", template: "%s" },
   description: siteConfig.description,
   alternates: { canonical: "/" },
-  openGraph: { type: "website", siteName: siteConfig.name, title: "Witchbrook Guide: Release, Platforms, Co-op & Gameplay", description: siteConfig.description, url: absoluteUrl(), images: [{ url: siteConfig.ogImage, width: 800, height: 450, alt: "Witchbrook Guide — Life at Witchbrook" }] },
-  twitter: { card: "summary_large_image", title: "Witchbrook Guide", description: siteConfig.description, images: [siteConfig.ogImage] },
+  openGraph: { type: "website", siteName: siteConfig.name, url: absoluteUrl(), images: [{ url: siteConfig.ogImage, width: 800, height: 450, alt: "Witchbrook Guide — Life at Witchbrook" }] },
+  twitter: { card: "summary_large_image", images: [siteConfig.ogImage] },
   icons: { icon: "/icon.png", apple: "/icon.png" },
 };
 
